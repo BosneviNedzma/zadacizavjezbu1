@@ -29,13 +29,14 @@ if (prost(i) && prost(i+2)){ //u petlju postavljamo uslov, koji je ispunjen ako 
 int main() {
 	
 	int n;
-	cout<<"Unesite dva broja: ";
+	cout<<"Unesite broj: ";
 	cin>>n;
 	if(prost(n)){
 		cout<<"Uneseni broj je prost."<<endl;
 	}else{
 		cout<<"Uneseni broj nije prost."<<endl;
 	}
+	cout<<"Blizanci su: "<<endl;
 	
 blizanci(n);
   
